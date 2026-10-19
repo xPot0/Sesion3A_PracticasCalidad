@@ -7,6 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import main.Calculadora;
 
 
 class CalculadoraTest {
@@ -50,5 +51,5 @@ class CalculadoraTest {
 	@Test
 	void testDivision() {
 		assertEquals(2,Calculadora.divide(6,3));
-	}
+	} 
 }
